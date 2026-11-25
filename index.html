@@ -23,7 +23,106 @@
 
 
 /* Market cashbook - premium emerald / teal / amber palette */
-:root{--gold:#d69b25;--blue:#2867a8;--purple:#7653a6;--soft-gold:#fff7e5;--soft-blue:#edf5ff;--soft-purple:#f4effb}
+:root{--gold:#d69b25;--blue:#2867a8;--purple:#7653a6;--soft-gold:#fff7e5;--soft-blue:#edf5<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="theme-color" content="#123a32">
+<title>إدارة الماركت</title>
+<style>
+:root{--bg:#f2f6f4;--card:#fff;--ink:#172b25;--muted:#718078;--brand:#126b50;--brand2:#0b4938;--line:#e1eae5;--red:#c0392b;--green:#168451;--gold:#e4a72b;--shadow:0 8px 24px #153b2b12}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0;border-radius:12px;padding:11px 14px;background:var(--brand);color:white;font-weight:700}button:active{transform:scale(.98)}button.secondary{background:#e8f1ed;color:var(--brand2)}button.danger{background:#fff0ef;color:var(--red)}button.small{padding:7px 10px;font-size:13px}.top{background:linear-gradient(130deg,#0b4938,#17825e);color:#fff;padding:18px 16px 22px;border-radius:0 0 24px 24px;box-shadow:var(--shadow)}.topline{display:flex;align-items:center;justify-content:space-between;gap:10px}.brand{font-size:25px;font-weight:900;letter-spacing:.2px}.clock{font-size:12px;opacity:.9}.wrap{max-width:850px;margin:auto;padding:14px}.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:-12px}.stat,.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:15px;box-shadow:var(--shadow)}.stat label{font-size:12px;color:var(--muted)}.stat strong{display:block;font-size:23px;margin-top:5px}.stat .hide{float:left;background:transparent;color:var(--muted);padding:0}.nav{display:flex;gap:8px;overflow:auto;padding:14px 0 8px;position:sticky;top:0;background:var(--bg);z-index:5}.nav button{white-space:nowrap;background:#e4eee9;color:var(--brand2);padding:9px 12px}.nav button.active{background:var(--brand);color:#fff}.page{display:none}.page.active{display:block}.sectionhead{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:10px 0}.sectionhead h2{font-size:19px;margin:0}.muted{color:var(--muted);font-size:13px}.field{display:grid;gap:6px;margin:10px 0}.field label{font-size:13px;color:var(--muted)}input,select,textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);outline:none}input:focus,textarea:focus,select:focus{border-color:var(--brand)}.row{display:flex;gap:8px;align-items:center}.row>*{flex:1;min-width:0}.customer{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:13px 2px;border-bottom:1px solid var(--line)}.customer:last-child{border:0}.customer .name{font-weight:800}.pill{font-size:11px;background:#e8f4ee;color:var(--brand);padding:4px 8px;border-radius:20px}.amount{font-weight:900;color:var(--red)}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.empty{text-align:center;color:var(--muted);padding:28px 8px}.balance{font-size:32px;font-weight:900;color:var(--red);text-align:center;padding:12px}.entry{padding:11px 0;border-bottom:1px solid var(--line)}.entry:last-child{border:0}.entrytop{display:flex;justify-content:space-between;gap:8px;font-weight:700}.positive{color:var(--green)}.negative{color:var(--red)}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.hidden{display:none!important}.notice{background:#fff8e7;color:#76530b;border:1px solid #f4dfa6;padding:11px;border-radius:12px;font-size:12px;line-height:1.6}.qrimg{display:block;max-width:100%;max-height:280px;object-fit:contain;margin:12px auto;border-radius:12px}.modal{position:fixed;inset:0;background:#071b14a8;display:none;align-items:flex-end;justify-content:center;z-index:20;padding:12px}.modal.show{display:flex}.modalbox{background:var(--bg);width:min(100%,650px);max-height:92vh;overflow:auto;border-radius:22px;padding:16px}.modalhead{display:flex;justify-content:space-between;align-items:center}.modalhead h2{margin:0;font-size:19px}#video{width:100%;max-height:55vh;background:#111;border-radius:14px;margin-top:10px}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#172b25;color:#fff;padding:11px 16px;border-radius:30px;z-index:50;display:none;max-width:90%;text-align:center}.dark{--bg:#101a16;--card:#1b2923;--ink:#edf5f0;--muted:#a8b8af;--line:#30443a;--shadow:0 8px 24px #0003}.dark input,.dark select,.dark textarea{background:#132019;color:#fff;border-color:#30443a}.dark .nav{background:var(--bg)}.dark .nav button{background:#263a30;color:#dcebe2}.dark .nav button.active{background:var(--brand)}.dark .secondary{background:#263a30;color:#dcebe2}.dark .notice{background:#392f17;color:#ffe6a3;border-color:#6c5520}
+@media(min-width:650px){.stats{grid-template-columns:repeat(4,minmax(0,1fr))}.modal{align-items:center}.wrap{padding:20px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="topline"><div><div class="brand" id="marketTitle">ماركت العائلة</div><div class="clock" id="clock"></div></div><button class="small secondary" onclick="renameMarket()">تغيير الاسم</button></div></header>
+<main class="wrap">
+<div class="stats">
+ <div class="stat"><button class="hide" onclick="toggleText('totalDebt')">◉</button><label>إجمالي ديون الزبائن</label><strong id="totalDebt">0.00 ₪</strong></div>
+ <div class="stat"><button class="hide" onclick="toggleText('todayIncome')">◉</button><label>إيرادات اليوم</label><strong id="todayIncome">0.00 ₪</strong></div>
+ <div class="stat"><button class="hide" onclick="toggleText('todayExpense')">◉</button><label>مصروفات اليوم</label><strong id="todayExpense">0.00 ₪</strong></div>
+ <div class="stat"><button class="hide" onclick="toggleText('netToday')">◉</button><label>صافي اليوم</label><strong id="netToday">0.00 ₪</strong></div>
+</div>
+<nav class="nav">
+<button class="active" data-page="home" onclick="showPage('home',this)">الرئيسية</button>
+<button data-page="activity" onclick="showPage('activity',this)">حركة الماركت</button>
+<button data-page="reports" onclick="showPage('reports',this)">التقارير</button>
+<button data-page="settings" onclick="showPage('settings',this)">الإعدادات</button>
+</nav>
+<section id="home" class="page active">
+ <div class="sectionhead"><h2>الزبائن والديون</h2><button onclick="openAddCustomer()">＋ إضافة زبون</button></div>
+ <div class="field"><input id="search" placeholder="ابحث عن اسم الزبون أو رقم الهاتف" oninput="renderCustomers()"></div>
+ <div class="row"><select id="sort" onchange="renderCustomers()"><option value="name">ترتيب أبجدي</option><option value="debt">الأعلى دينًا</option></select><span class="muted" id="customerCount"></span></div>
+ <div class="card" id="customerList"></div>
+</section>
+<section id="customerPage" class="page">
+ <div class="sectionhead"><button class="secondary" onclick="showPage('home')">→ رجوع للزبائن</button><button class="secondary" onclick="editCurrentCustomer()">تعديل بيانات</button></div>
+ <div class="card">
+  <h2 id="customerName" style="text-align:center;margin:6px 0"></h2><div class="muted" id="customerPhone" style="text-align:center"></div>
+  <div class="balance" id="customerBalance">0.00 ₪</div>
+  <div class="actions"><button onclick="openTransaction('debt')">＋ إضافة دين</button><button class="secondary" onclick="openTransaction('payment')">تسديد قسط</button><button class="secondary" onclick="openCustomerQR()">الدفع عبر QR</button></div>
+ </div>
+ <div class="sectionhead"><h2>سجل الحساب</h2></div><div class="card" id="customerHistory"></div>
+</section>
+<section id="activity" class="page">
+ <div class="sectionhead"><h2>حركة الماركت</h2><button onclick="openActivity()">＋ إضافة حركة</button></div>
+ <div class="grid2">
+  <div class="stat"><label>إجمالي الإيرادات</label><strong id="allIncome">0 ₪</strong></div><div class="stat"><label>إجمالي المصروفات والمشتريات</label><strong id="allExpense">0 ₪</strong></div>
+ </div><div class="card" id="activityList" style="margin-top:12px"></div>
+</section>
+<section id="reports" class="page">
+ <div class="sectionhead"><h2>التقارير</h2><button class="secondary" onclick="exportData()">نسخ احتياطي</button></div>
+ <div class="card" id="reportBox"></div>
+ <div class="actions"><button class="secondary" onclick="exportData()">تنزيل نسخة احتياطية</button><button class="secondary" onclick="document.getElementById('restoreFile').click()">استعادة نسخة</button><input id="restoreFile" type="file" accept="application/json" class="hidden" onchange="restoreData(event)"></div>
+</section>
+<section id="settings" class="page">
+ <div class="sectionhead"><h2>إعدادات التطبيق</h2></div>
+ <div class="card">
+  <div class="field"><label>اسم الماركت</label><input id="settingMarketName" placeholder="اسم الماركت"><button onclick="saveMarketName()">حفظ الاسم</button></div>
+  <div class="field"><label>QR الخاص بالتاجر</label><div class="muted">ارفع صورة رمز المحفظة ليتمكن الزبون من فتحها وعرضها عند الدفع.</div><input id="merchantQrFile" type="file" accept="image/*" onchange="saveMerchantQR(event)"><div id="merchantQrPreview"></div><button class="danger small" onclick="removeMerchantQR()">حذف صورة QR</button></div>
+  <div class="notice">تنبيه: حفظ صورة QR وعرضها لا ينفذ تحويلًا ماليًا. تأكد بنفسك من وصول الحوالة إلى محفظتك قبل تسجيل التسديد.</div>
+  <div class="actions"><button class="secondary" onclick="toggleDark()">تبديل الوضع الليلي</button><button class="secondary" onclick="exportData()">نسخ احتياطي للبيانات</button></div>
+ </div>
+</section>
+</main>
+<div class="modal" id="modal"><div class="modalbox"><div class="modalhead"><h2 id="modalTitle"></h2><button class="danger small" onclick="closeModal()">إغلاق</button></div><div id="modalBody"></div></div></div>
+<div class="toast" id="toast"></div>
+<script>
+const KEY='market_app_v3_data';
+let db=loadDB(), currentCustomer=null, txType='debt', scanStream=null, scanFrame=null;
+function fresh(){return {marketName:'ماركت العائلة',customers:[],activities:[],merchantQR:'',dark:false}}
+function loadDB(){try{return {...fresh(),...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch(e){return fresh()}}
+function save(){localStorage.setItem(KEY,JSON.stringify(db));renderAll()}
+function money(n){return (Number(n)||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})+' ₪'}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function today(){return new Date().toISOString().slice(0,10)}
+function toast(s){let t=document.getElementById('toast');t.textContent=s;t.style.display='block';setTimeout(()=>t.style.display='none',2300)}
+function toggleText(id){let e=document.getElementById(id);if(e.dataset.hidden==='1'){e.textContent=e.dataset.value;e.dataset.hidden='0'}else{e.dataset.value=e.textContent;e.textContent='••••••';e.dataset.hidden='1'}}
+function showPage(id,btn){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.toggle('active',x===btn));if(id==='reports')renderReports();if(id==='activity')renderActivities()}
+function openModal(title,html){document.getElementById('modalTitle').textContent=title;document.getElementById('modalBody').innerHTML=html;document.getElementById('modal').classList.add('show')}
+function closeModal(){stopScanner();document.getElementById('modal').classList.remove('show')}
+function renderAll(){document.getElementById('marketTitle').textContent=db.marketName;document.getElementById('settingMarketName').value=db.marketName;document.body.classList.toggle('dark',!!db.dark);renderStats();renderCustomers();renderActivities();renderMerchantQR()}
+function renderStats(){let debt=db.customers.reduce((s,c)=>s+balance(c),0),inc=db.activities.filter(a=>a.date===today()&&a.kind==='income').reduce((s,a)=>s+a.amount,0),out=db.activities.filter(a=>a.date===today()&&a.kind!=='income').reduce((s,a)=>s+a.amount,0);document.getElementById('totalDebt').textContent=money(debt);document.getElementById('todayIncome').textContent=money(inc);document.getElementById('todayExpense').textContent=money(out);document.getElementById('netToday').textContent=money(inc-out)}
+function balance(c){return (c.entries||[]).reduce((s,e)=>s+(e.type==='debt'?e.amount:-e.amount),0)}
+function renderCustomers(){let q=(document.getElementById('search')?.value||'').trim().toLowerCase(),arr=db.customers.filter(c=>c.name.toLowerCase().includes(q)||(c.phone||'').includes(q));arr.sort((a,b)=>document.getElementById('sort')?.value==='debt'?balance(b)-balance(a):a.name.localeCompare(b.name,'ar'));document.getElementById('customerCount').textContent=arr.length+' زبون';let box=document.getElementById('customerList');box.innerHTML=arr.length?arr.map(c=>`<div class="customer"><div style="min-width:0"><div class="name">${esc(c.name)}</div><div class="muted">${esc(c.phone||'')}</div></div><div class="row" style="flex:0 0 auto"><span class="pill">الدين مخفي</span><button class="small" onclick="openCustomer('${c.id}')">فتح</button></div></div>`).join(''):'<div class="empty">لا يوجد زبائن بعد. اضغط إضافة زبون للبدء.</div>'}
+function openAddCustomer(){openModal('إضافة زبون',`<div class="field"><label>اسم الزبون</label><input id="newName" placeholder="الاسم الكامل"></div><div class="field"><label>رقم الهاتف</label><input id="newPhone" inputmode="tel" placeholder="رقم الهاتف"></div><button onclick="addCustomer()">حفظ الزبون</button>`)}
+function addCustomer(){let name=document.getElementById('newName').value.trim(),phone=document.getElementById('newPhone').value.trim();if(!name)return toast('اكتب اسم الزبون');db.customers.push({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),name,phone,entries:[]});save();closeModal();toast('تمت إضافة الزبون')}
+function openCustomer(id){currentCustomer=db.customers.find(c=>c.id===id);if(!currentCustomer)return;document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById('customerPage').classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));renderCustomerDetail()}
+function renderCustomerDetail(){let c=currentCustomer;if(!c)return;document.getElementById('customerName').textContent=c.name;document.getElementById('customerPhone').textContent=c.phone||'لا يوجد رقم هاتف';document.getElementById('customerBalance').textContent=money(balance(c));let entries=[...(c.entries||[])].reverse();document.getElementById('customerHistory').innerHTML=entries.length?entries.map(e=>`<div class="entry"><div class="entrytop"><span>${e.type==='debt'?'دين مضاف':'تسديد'}</span><span class="${e.type==='debt'?'negative':'positive'}">${e.type==='debt'?'+':'−'} ${money(e.amount)}</span></div><div class="muted">${esc(e.date)} ${e.note?'• '+esc(e.note):''}</div></div>`).join(''):'<div class="empty">لا توجد حركات لهذا الزبون.</div>'}
+function openTransaction(type){txType=type;openModal(type==='debt'?'إضافة دين':'تسجيل تسديد',`<div class="field"><label>المبلغ بالشيكل</label><input id="txAmount" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="0.00"></div><div class="field"><label>ملاحظات / الأغراض المشتراة</label><textarea id="txNote" rows="3" placeholder="اكتب التفاصيل هنا"></textarea></div><button onclick="saveTransaction()">حفظ الحركة</button>`)}
+function saveTransaction(){let amount=Number(document.getElementById('txAmount').value),note=document.getElementById('txNote').value.trim();if(!(amount>0))return toast('أدخل مبلغًا صحيحًا');if(txType==='payment'&&amount>balance(currentCustomer)+.001)return toast('المبلغ أكبر من الدين الحالي');currentCustomer.entries.push({type:txType==='debt'?'debt':'payment',amount,note,date:today()});save();renderCustomerDetail();closeModal();toast('تم حفظ الحركة')}
+function editCurrentCustomer(){openModal('تعديل بيانات الزبون',`<div class="field"><label>الاسم</label><input id="editName" value="${esc(currentCustomer.name)}"></div><div class="field"><label>رقم الهاتف</label><input id="editPhone" value="${esc(currentCustomer.phone||'')}"></div><button onclick="saveCustomerEdit()">حفظ التعديل</button><button class="danger" style="margin-right:6px" onclick="deleteCustomer()">حذف الزبون</button>`)}
+function saveCustomerEdit(){let n=document.getElementById('editName').value.trim();if(!n)return toast('الاسم مطلوب');currentCustomer.name=n;currentCustomer.phone=document.getElementById('editPhone').value.trim();save();renderCustomerDetail();closeModal()}
+function deleteCustomer(){if(!confirm('هل تريد حذف الزبون وسجل حسابه؟'))return;db.customers=db.customers.filter(c=>c.id!==currentCustomer.id);currentCustomer=null;save();closeModal();showPage('home',document.querySelector('[data-page="home"]'))}
+function openCustomerQR(){let qr=db.merchantQR?`<img class="qrimg" src="${db.merchantQR}" alt="QR التاجر">`:'<div class="empty">لم ترفع صورة QR التاجر بعد. ارفعها من الإعدادات.</div>';openModal('الدفع عبر QR',`${qr}<div class="notice">اعرض هذا الرمز للزبون ليقوم بمسحه من تطبيق المحفظة. بعد التأكد من وصول المبلغ، سجّل التسديد يدويًا من صفحة الزبون.</div><div class="field"><label>أو امسح رمز QR من هاتف الزبون لقراءة محتواه</label><button onclick="startScanner()">فتح الكاميرا لمسح QR</button></div><div id="scanResult" class="muted"></div>`)}
+async function startScanner(){if(!('BarcodeDetector'in window))return toast('متصفحك لا يدعم ماسح QR المدمج. استخدم تطبيق المحفظة أو كاميرا الهاتف.');try{let detector=new BarcodeDetector({formats:['qr_code']});openModal('مسح QR الزبون','<video id="video" autoplay playsinline></video><p class="muted">وجّه الكاميرا نحو الرمز. القراءة لا تؤكد وصول دفعة.</p><div id="scanResult"></div>');scanStream=await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment'}});let v=document.getElementById('video');v.srcObject=scanStream;await v.play();let scan=async()=>{if(!scanStream)return;try{let codes=await detector.detect(v);if(codes.length){document.getElementById('scanResult').textContent='محتوى الرمز: '+codes[0].rawValue;stopScanner();return}}catch(e){}scanFrame=requestAnimationFrame(scan)};scan()}catch(e){toast('تعذر فتح الكاميرا. تأكد من إذن الكاميرا واستخدم الموقع عبر HTTPS.')}}
+function stopScanner(){if(scanFrame)cancelAnimationFrame(scanFrame);scanFrame=null;if(scanStream){scanStream.getTracks().forEach(t=>t.stop());scanStream=null}}
+function openActivity(){openModal('إضافة حركة للماركت',`<div class="field"><label>نوع الحركة</label><select id="actKind"><option value="income">إيراد</option><option value="expense">مصروف</option><option value="purchase">مشتريات</option></select></div><div class="field"><label>المبلغ بالشيكل</label><input id="actAmount" type="number" min=".01" step=".01"></div><div class="field"><label>البيان</label><input id="actNote" placeholder="مثال: مبيعات اليوم أو فاتورة بضاعة"></div><button onclick="saveActivity()">حفظ الحركة</button>`)}
+function saveActivity(){let amount=Number(document.getElementById('actAmount').value);if(!(amount>0))return toast('أدخل مبلغًا صحيحًا');db.activities.push({id:Date.now(),kind:document.getElementById('actKind').value,amount,note:document.getElementById('actNote').value.trim(),date:today()});save();closeModal();toast('تم حفظ الحركة')}
+function renderActivities(){let list=[...db.activities].reverse(),inc=db.activities.filter(a=>a.kind==='income').reduce((s,a)=>s+a.amount,0),out=db.activities.filter(a=>a.kind!=='income').reduce((s,a)=>s+a.amount,0);document.getElementById('allIncome').textContent=money(inc);document.getElementById('allExpense').textContent=money(out);document.getElementById('activityList').innerHTML=list.length?list.map(a=>`<div class="entry"><div class="entrytop"><span>${a.kind==='income'?'إيراد':a.kind==='purchase'?'مشتريات':'مصروف'}</span><span class="${a.kind==='income'?'positive':'negative'}">${money(a.amount)}</span></div><div class="muted">${esc(a.date)} • ${esc(a.note||'بدون تفاصيل')}</div></div>`).join(''):'<div class="empty">لا توجد حركات مسجلة.</div>'}
+function renderReports(){let debt=db.customers.reduce((s,c)=>s+balance(c),0),inff;--soft-purple:#f4effb}
 .app-nav{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0 4px}
 .nav-btn{border:1px solid #d7e8e0;background:#fff;color:#31584b;border-radius:13px;padding:11px 16px;font:inherit;font-weight:800;cursor:pointer;box-shadow:0 3px 10px #173e2e0a}
 .nav-btn.active{background:linear-gradient(120deg,#123a32,#218267);color:#fff;border-color:transparent;box-shadow:0 6px 16px #176b5030}
